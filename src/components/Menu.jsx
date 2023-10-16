@@ -47,6 +47,9 @@ export default function Menu() {
     },
   ];
 
+  const pizzas = pizzaData;
+  const numPizzas = pizzas.length;
+
   return (
     <main className="menu">
       <h2>Our menu</h2>
@@ -54,11 +57,14 @@ export default function Menu() {
         Authentic Italian cusine. 6 creative dishes to choose from. All from our
         stone oven, all organic, all delicious.
       </p>
-      <ul className="pizzas">
-        {pizzaData.map((pizza) => (
-          <Pizza pizzaObj={pizza} />
-        ))}
-      </ul>
+
+      {numPizzas > 0 && (
+        <ul className="pizzas">
+          {pizzas.map((pizza) => (
+            <Pizza pizzaObj={pizza} />
+          ))}
+        </ul>
+      )}
     </main>
   );
 }
