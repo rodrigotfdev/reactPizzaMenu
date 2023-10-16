@@ -58,12 +58,14 @@ export default function Menu() {
         stone oven, all organic, all delicious.
       </p>
 
-      {numPizzas > 0 && (
+      {numPizzas > 0 ? (
         <ul className="pizzas">
           {pizzas.map((pizza) => (
             <Pizza pizzaObj={pizza} />
           ))}
         </ul>
+      ) : (
+        <p>We're still working on our menu. Please come back latter</p>
       )}
     </main>
   );
