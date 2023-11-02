@@ -43,7 +43,8 @@ or clone the repository to your computer and run 'npm install' and 'npm run dev'
 
 ## Project Images
 
-![image](https://github.com/rodrigotfdev/reactPizzaMenu/assets/52326702/a57e2ecb-6ca6-4599-ab2c-f63a82159eb6)
+![image](https://github.com/rodrigotfdev/reactPizzaMenu/assets/52326702/2f2a9c8e-47f6-4c25-9dcf-97f3e8487823)
+
 
 
 
