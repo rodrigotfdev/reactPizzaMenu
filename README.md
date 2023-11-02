@@ -25,15 +25,15 @@ The application has the following key components:
 
 #### Key Concepts Utilized
 
-✅. **Component Structure**: The application follows a structured component-based architecture, enabling modularity and reusability.
+✅ **Component Structure**: The application follows a structured component-based architecture, enabling modularity and reusability.
   
-✅. **Conditional Rendering**: Conditional rendering is used to display components based on factors like the availability of menu items and the restaurant's opening hours.
+✅ **Conditional Rendering**: Conditional rendering is used to display components based on factors like the availability of menu items and the restaurant's opening hours.
   
-✅. **Props and Data Mapping**: Props are used to pass data between components. The list of pizzas is mapped to render individual `Pizza` components.
+✅ **Props and Data Mapping**: Props are used to pass data between components. The list of pizzas is mapped to render individual `Pizza` components.
 
 ✅ **Component Styling**: Inline styling is used within the `Header` component to apply CSS properties.
 
-✅. **React Lifecycle Methods**: The code contains commented-out lifecycle method checks, such as operating hours, which can affect the display.
+✅ **React Lifecycle Methods**: The code contains commented-out lifecycle method checks, such as operating hours, which can affect the display.
 
 
 
