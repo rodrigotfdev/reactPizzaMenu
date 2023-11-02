@@ -1,8 +1,8 @@
-### Fast React Pizza Co.
+# Fast React Pizza Co.
 
 The code provided is a React-based application representing a menu for a pizza restaurant. It is structured into different components to manage the header, menu items, and footer.
 
-#### Summary
+## Summary
 The application has the following key components:
 
 1. **`App` Component**: 
@@ -23,7 +23,7 @@ The application has the following key components:
 6. **`Order` Component**: 
    - Appears in the footer when the restaurant is open. It displays operating hours and an order button for online orders.
 
-#### Key Concepts Utilized
+## Key Concepts used
 
 ✅ **Component Structure**: The application follows a structured component-based architecture, enabling modularity and reusability.
   
@@ -34,6 +34,17 @@ The application has the following key components:
 ✅ **Component Styling**: Inline styling is used within the `Header` component to apply CSS properties.
 
 ✅ **React Lifecycle Methods**: The code contains commented-out lifecycle method checks, such as operating hours, which can affect the display.
+
+## See it in practice
+
+You can preview the application at the following link: [VERCEL LIVE APP PREVIEW](https://pizza-menu-iota.vercel.app/)
+
+or clone the repository to your computer and run 'npm install' and 'npm run dev' in the terminal to open it.
+
+## Project Images
+
+![image](https://github.com/rodrigotfdev/reactPizzaMenu/assets/52326702/a57e2ecb-6ca6-4599-ab2c-f63a82159eb6)
+
 
 
 
