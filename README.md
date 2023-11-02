@@ -1,4 +1,4 @@
-### Code Documentation
+### Fast React Pizza Co.
 
 The code provided is a React-based application representing a menu for a pizza restaurant. It is structured into different components to manage the header, menu items, and footer.
 
@@ -25,19 +25,15 @@ The application has the following key components:
 
 #### Key Concepts Utilized
 
-1. **Component Structure**: The application follows a structured component-based architecture, enabling modularity and reusability.
+✅. **Component Structure**: The application follows a structured component-based architecture, enabling modularity and reusability.
   
-2. **Conditional Rendering**: Conditional rendering is used to display components based on factors like the availability of menu items and the restaurant's opening hours.
+✅. **Conditional Rendering**: Conditional rendering is used to display components based on factors like the availability of menu items and the restaurant's opening hours.
   
-3. **Props and Data Mapping**: Props are used to pass data between components. The list of pizzas is mapped to render individual `Pizza` components.
+✅. **Props and Data Mapping**: Props are used to pass data between components. The list of pizzas is mapped to render individual `Pizza` components.
 
-4. **Component Styling**: Inline styling is used within the `Header` component to apply CSS properties.
+✅ **Component Styling**: Inline styling is used within the `Header` component to apply CSS properties.
 
-5. **React Lifecycle Methods**: The code contains commented-out lifecycle method checks, such as operating hours, which can affect the display.
+✅. **React Lifecycle Methods**: The code contains commented-out lifecycle method checks, such as operating hours, which can affect the display.
 
-#### Framework and Rendering
 
-The code demonstrates rendering in React using `ReactDOM.createRoot` which is a method in React version 18. In versions before 18, `ReactDOM.render` would be used to render the `App` component.
-
-The code sets up the root element and renders the `App` component within a `React.StrictMode` wrapper to assist with detecting potential issues.
 
